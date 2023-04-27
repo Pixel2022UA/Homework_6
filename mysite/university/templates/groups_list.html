@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Our groups:</title>
+</head>
+<body>
+    <h1>Our groups:</h1>
+    <ul>
+    {% for group in groups %}
+        <li>{{ group.group_name }}</li>
+    {% endfor %}
+    </ul>
+</body>
+</html>
